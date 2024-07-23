@@ -79,14 +79,13 @@ footer, header, hgroup, menu, nav, section {
   }
 
   .logo-size {
-    width: 11px;
-    height: 11px;
+    width: 10px;
+    height: 10px;
   }
 
   .getlink {
-    font-size: 9px;
+    font-size: 8px;
   }
-
 }
 
 body {
