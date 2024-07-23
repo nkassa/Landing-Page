@@ -68,6 +68,23 @@ footer, header, hgroup, menu, nav, section {
   }
 }
 
+/* Styles for medium screens (tablets) */
+@media (max-width: 400px) {
+  .name-header {
+    font-size: 12px;
+		padding-left: 8px;
+  }
+
+  .logo-size {
+    width: 10px;
+    height: 10px;
+  }
+
+  .getlink {
+    font-size: 8px;
+  }
+}
+
 body {
 	line-height: 1;
 }
