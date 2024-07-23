@@ -49,23 +49,27 @@ footer, header, hgroup, menu, nav, section {
 	}
 .logo-link-container {
 	padding-left: 30px;
-	padding-right: 5px;
 	
 }
 /* Styles for medium screens (tablets) */
 @media (max-width: 560px) {
   .name-header {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .logo-size {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
   }
 
   .getlink {
-    font-size: 10px;
+    font-size: 13px;
   }
+
+	.logo-link-container {
+		padding-left: 20px;
+		
+	}
 }
 
 @media (max-width: 80px) {
@@ -75,13 +79,18 @@ footer, header, hgroup, menu, nav, section {
   }
 
   .logo-size {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
   }
 
   .getlink {
-    font-size: 8px;
+    font-size: 11px;
   }
+
+	.logo-link-container {
+		padding-left: 16px;
+		
+	}
 }
 
 body {
