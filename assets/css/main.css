@@ -68,7 +68,7 @@ footer, header, hgroup, menu, nav, section {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .name-header {
     font-size: 12px;
 		padding-left: 8px;
