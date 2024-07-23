@@ -49,6 +49,7 @@ footer, header, hgroup, menu, nav, section {
 	}
 .logo-link-container {
 	padding-left: 30px;
+	padding-right: 5px;
 	
 }
 /* Styles for medium screens (tablets) */
