@@ -68,9 +68,9 @@ footer, header, hgroup, menu, nav, section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 80px) {
   .name-header {
-    font-size: 12px;
+    font-size: 10px;
 		padding-left: 8px;
   }
 
