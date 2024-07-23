@@ -42,16 +42,32 @@ footer, header, hgroup, menu, nav, section {
 }
 .getlink {
 	font-size: 15px;
-}
+	}
 .logo-size {
 	width: 15px;
 	height: 15px;
-}
+	}
 .logo-link-container {
 	padding-left: 30px;
 	padding-right: 5px;
 	
 }
+/* Styles for medium screens (tablets) */
+@media (max-width: 560px) {
+  .name-header {
+    font-size: 16px;
+  }
+
+  .logo-size {
+    width: 12px;
+    height: 12px;
+  }
+
+  .getlink {
+    font-size: 10px;
+  }
+}
+
 body {
 	line-height: 1;
 }
