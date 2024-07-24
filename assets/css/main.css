@@ -112,54 +112,34 @@ footer, header, hgroup, menu, nav, section {
 	padding-right: 5px;
 	
 }
-/* Styles for medium screens (tablets) */
-@media (max-width: 560px) {
-  .name-header {
-    font-size: 16px;
-  }
+@media (max-width: 600px) {
+	.name-header {
+			font-size: .8em;
+	}
 
-  .logo-size {
-    width: 12px;
-    height: 12px;
-  }
+	.logo-size {
+			width: 10px;
+			height: 10px;
+	}
 
-  .getlink {
-    font-size: 10px;
-  }
+	.getlink {
+			font-size: 0.6em;
+	}
 }
+@media (max-width: 150px) {
+	.name-header {
+			font-size: .6em;
+	}
 
-@media (max-width: 200px) {
-  .name-header {
-    font-size: 10px;
-		padding-left: 8px;
-  }
+	.logo-size {
+			width: 7px;
+			height: 7px;
+	}
 
-  .logo-size {
-    width: 10px;
-    height: 10px;
-  }
-
-  .getlink {
-    font-size: 8px;
-  }
+	.getlink {
+			font-size: 0.4em;
+	}
 }
-
-@media (max-width: 80px) {
-  .name-header {
-    font-size: 7px;
-		padding-left: 5px;
-  }
-
-  .logo-size {
-    width: 7px;
-    height: 7px;
-  }
-
-  .getlink {
-    font-size: 5px;
-  }
-}
-
 body {
 	line-height: 1;
 }
