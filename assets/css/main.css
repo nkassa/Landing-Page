@@ -115,6 +115,7 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 600px) {
 	.name-header {
 			font-size: .8em;
+			padding-left: 15px;
 	}
 
 	.logo-size {
@@ -129,6 +130,7 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 100px) {
 	.name-header {
 			font-size: .6em;
+			padding-left: 10px;
 	}
 
 	.logo-size {
@@ -143,6 +145,7 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 50px) {
 	.name-header {
 			font-size: .3em;
+			padding-left: 6px;
 	}
 
 	.logo-size {
