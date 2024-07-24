@@ -83,12 +83,17 @@ h2 p {
 	.school-stuff {
 			font-size: 16px;
 	}
+	.startup-img {
+		max-width: 100%;
+	}
 }
 .startup-img {
-	width: 500px;
-  height: 300px;
-  object-fit: fill;
-	border-radius: 20px; 
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin: 10px 0;
 }
 .resume-class {
 	width: 400px;
