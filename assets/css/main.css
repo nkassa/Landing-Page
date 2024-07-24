@@ -86,6 +86,9 @@ h2 p {
 	.startup-img {
 		max-width: 100%;
 	}
+	.pdf-container {
+		height: 60vh; /* Adjust height for smaller screens */
+	}
 }
 .startup-img {
 	width: 100%;
@@ -94,24 +97,21 @@ h2 p {
 	object-fit: cover;
 	border-radius: 20px;
 }
-.resume-class {
-	width: 400px;
-  height: 500px;
-  object-fit: cover;
-}
 .resume-img {
 	border: none;
-  width: 80%; /* Adjust as needed to fit within the container */
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	max-width: 800px; /* Adjust max-width as needed */
 }
 .pdf-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 600px; /* Adjust height as needed */
-	margin-top: 0px;
+	height: 80vh; /* Adjust height to fit within viewport */
+	margin-top: 0;
 	padding-bottom: 20px;
+	overflow: hidden; /* Ensure content doesn’t overflow */
 }
 .name-header
 {
