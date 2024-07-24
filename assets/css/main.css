@@ -126,7 +126,7 @@ footer, header, hgroup, menu, nav, section {
 			font-size: 0.6em;
 	}
 }
-@media (max-width: 150px) {
+@media (max-width: 100px) {
 	.name-header {
 			font-size: .6em;
 	}
