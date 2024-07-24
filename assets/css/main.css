@@ -128,7 +128,7 @@ footer, header, hgroup, menu, nav, section {
   }
 }
 
-@media (max-width: 80px) {
+@media (max-width: 200px) {
   .name-header {
     font-size: 10px;
 		padding-left: 8px;
@@ -141,6 +141,22 @@ footer, header, hgroup, menu, nav, section {
 
   .getlink {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 80px) {
+  .name-header {
+    font-size: 7px;
+		padding-left: 5px;
+  }
+
+  .logo-size {
+    width: 7px;
+    height: 7px;
+  }
+
+  .getlink {
+    font-size: 5px;
   }
 }
 
