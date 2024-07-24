@@ -40,6 +40,21 @@ footer, header, hgroup, menu, nav, section {
 	margin-bottom: 20px;
 	text-align: center;
 }
+.contact-header {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; /* Adjust this value to increase or decrease spacing */
+}
+.uni {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	width: 100%;
+}
+.school-stuff {
+	text-align: left;
+	margin-bottom: 0px;
+}
 .uni {
 	text-align: center;
 }
@@ -48,6 +63,31 @@ footer, header, hgroup, menu, nav, section {
   height: 270px;
   object-fit: cover;
 	border-radius: 20px; 
+}
+.startup-img {
+	width: 500px;
+  height: 300px;
+  object-fit: fill;
+	border-radius: 20px; 
+}
+.resume-class {
+	width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+.resume-img {
+	border: none;
+  width: 80%; /* Adjust as needed to fit within the container */
+  height: 100%;
+}
+.pdf-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 600px; /* Adjust height as needed */
+	margin-top: 0px;
+	padding-bottom: 20px;
 }
 .name-header
 {
